@@ -1,21 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Rubik", serif;
 }
 
 .container {
-    width: 60vw;
-    height: 80vh;
     background-color: aquamarine;
-    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: space-around;
 }
 
-.graphic img {
-    width: 300px;
+.cover {
+    width: 500px;
+    line-height: 0;
+    position: relative;
+}
+
+.cover img {
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+.login {
+    /* display: flex;
+    flex-direction: column; */
+    width: 500px;
+}
+
+.logo {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: auto;
+    /* padding-bottom: 50px; */
+}
+
+.logo img {
+    width: 125px;
+}
+
+.logo p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.form {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+}
+
+.form label {
+    text-align: start;
+    float: left;
+}
+
+.form input {
+    width: 75%;
+    height: 30px;
 }
