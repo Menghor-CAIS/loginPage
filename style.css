@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.container {
+    background-color: #f7f7f7;
+    width: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    border: none;
+    background-color: #f7f7f7;
+    color: #002855;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+p {
+    color: #002855;
+}
+
+.title h1 {
+    margin-top: 1px;
+}
+
+.title img {
+    width: 100px;
+}
+
+.interact {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.interact input {
+    width: 100%;
+    height: 35px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.email {
+    padding-bottom: 15px;
+}
+
+.email p, .password p {
+    padding: 0 0 5px 0;
+}
+
+input:focus {
+    border: 3px solid #002855;
+}
+
+.forgot {
+    text-align: end;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 0 5px 0;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: rgb(10, 43, 190);
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.signin {
+    padding: 15px 0 0 0;
+}
+
+.signin button{
+    width: 100%;
+    height: 45px;
+    background-color: #002855;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #f7b512;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 0;
+}
+
+.signin button:hover {
+    background-color: #103663;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.footer {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.google img {
+    width: 20px;
+}
+
+.google button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-weight: 650;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google button:hover {
+    border: 1px solid rgb(185, 185, 185);
+    /* background-color: whitesmoke; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: rgb(10, 43, 190);
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
